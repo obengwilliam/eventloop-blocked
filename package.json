@@ -1,0 +1,26 @@
+{
+  "name": "eventloop-blocked",
+  "version": "1.0.0",
+  "description": "Find out if your eventloop is blocked and what is actually causing it",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.test.js  && ./test/runtime.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obengwilliam/eventloop-blocked.git"
+  },
+  "keywords": [
+    "eventloop",
+    "blocked"
+  ],
+  "author": "william obeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obengwilliam/eventloop-blocked/issues"
+  },
+  "homepage": "https://github.com/obengwilliam/eventloop-blocked#readme"
+}
